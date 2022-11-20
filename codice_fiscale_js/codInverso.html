@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="it" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/ico.png" type="image/x-icon">
+    <title>Codice Fiscale Inverso</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav border border-success border-2">
+            <div class="calcolo">
+                <button class="btn btn-success" id="codice" onclick="cambiapagina()">Codice Fiscale</button>
+                <button class="btn btn-success" id="reset" onclick="reset()">Reset</button>
+            </div>
+            <div class="dark_light">
+                <div class="dark_light_Bt" onclick="change_theme()">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
+                        <path
+                            d="M24 42q-7.5 0-12.75-5.25T6 24q0-7.5 5.25-12.75T24 6q.4 0 .85.025.45.025 1.15.075-1.8 1.6-2.8 3.95-1 2.35-1 4.95 0 4.5 3.15 7.65Q28.5 25.8 33 25.8q2.6 0 4.95-.925T41.9 22.3q.05.6.075.975Q42 23.65 42 24q0 7.5-5.25 12.75T24 42Zm0-3q5.45 0 9.5-3.375t5.05-7.925q-1.25.55-2.675.825Q34.45 28.8 33 28.8q-5.75 0-9.775-4.025T19.2 15q0-1.2.25-2.575.25-1.375.9-3.125-4.9 1.35-8.125 5.475Q9 18.9 9 24q0 6.25 4.375 10.625T24 39Zm-.2-14.85Z" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="contenitore border border-success border-2">
+            <div class="titolo mb-4">
+                <h1>Codice Inverso</h1>
+            </div>
+            <form class="row g-3" novalidate>
+                <div class="col-md-12">
+                    <div class="row rigaInv">
+                        <div class="col-md-8 mb-3">
+                            <input type="text" class="form-control" name="codice" id="inputCodice" pattern=".{16,}"
+                                maxlength="16" required>
+                            <div class="invalid-feedback feedback">
+                                Inserisci il codice fiscale!
+                                <!--inserire elenco delle parti errate con un ul li-->
+                            </div>
+                        </div>
+                        <div class="col-md-2 mb-3">
+                            <button class="btn btn-success btCalc" type="submit">Calcola</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="risultati col-md-12 mt-4">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label>Cognome</label>
+                        <input type="text" disabled id="risulCognome" class="border border-success border-1">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label>Nome</label>
+                        <input type="text" disabled id="risulNome" class="border border-success border-1">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label>Data di nascita</label>
+                        <input type="text" disabled id="risulData" class="border border-success border-1">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label>Luogo di nascita</label>
+                        <input type="text" disabled id="risulLuogo" class="border border-success border-1">
+                    </div>
+                </div>
+                <label>Sesso</label>
+                <input type="text" disabled id="risulSesso" class="border border-success border-1">
+            </div>
+
+
+
+        </div>
+
+    </div>
+    <!-- script javascript -->
+    <script src="scriptInverso.js"></script>
+    <script src="calc_cod_controllo.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,866 @@
+[
+  {
+    "DENOMINAZIONE": "Albania",
+    "CODICE": "Z100"
+  },
+  {
+    "DENOMINAZIONE": "Andorra",
+    "CODICE": "Z101"
+  },
+  {
+    "DENOMINAZIONE": "Austria",
+    "CODICE": "Z102"
+  },
+  {
+    "DENOMINAZIONE": "Belgio",
+    "CODICE": "Z103"
+  },
+  {
+    "DENOMINAZIONE": "Bulgaria",
+    "CODICE": "Z104"
+  },
+  {
+    "DENOMINAZIONE": "Danimarca",
+    "CODICE": "Z107"
+  },
+  {
+    "DENOMINAZIONE": "Finlandia",
+    "CODICE": "Z109"
+  },
+  {
+    "DENOMINAZIONE": "Francia",
+    "CODICE": "Z110"
+  },
+  {
+    "DENOMINAZIONE": "Germania",
+    "CODICE": "Z112"
+  },
+  {
+    "DENOMINAZIONE": "Regno Unito",
+    "CODICE": "Z114"
+  },
+  {
+    "DENOMINAZIONE": "Grecia",
+    "CODICE": "Z115"
+  },
+  {
+    "DENOMINAZIONE": "Irlanda",
+    "CODICE": "Z116"
+  },
+  {
+    "DENOMINAZIONE": "Islanda",
+    "CODICE": "Z117"
+  },
+  {
+    "DENOMINAZIONE": "Liechtenstein",
+    "CODICE": "Z119"
+  },
+  {
+    "DENOMINAZIONE": "Lussemburgo",
+    "CODICE": "Z120"
+  },
+  {
+    "DENOMINAZIONE": "Malta",
+    "CODICE": "Z121"
+  },
+  {
+    "DENOMINAZIONE": "Monaco",
+    "CODICE": "Z123"
+  },
+  {
+    "DENOMINAZIONE": "Norvegia",
+    "CODICE": "Z125"
+  },
+  {
+    "DENOMINAZIONE": "Paesi Bassi",
+    "CODICE": "Z126"
+  },
+  {
+    "DENOMINAZIONE": "Polonia",
+    "CODICE": "Z127"
+  },
+  {
+    "DENOMINAZIONE": "Portogallo",
+    "CODICE": "Z128"
+  },
+  {
+    "DENOMINAZIONE": "Romania",
+    "CODICE": "Z129"
+  },
+  {
+    "DENOMINAZIONE": "San Marino",
+    "CODICE": "Z130"
+  },
+  {
+    "DENOMINAZIONE": "Spagna",
+    "CODICE": "Z131"
+  },
+  {
+    "DENOMINAZIONE": "Svezia",
+    "CODICE": "Z132"
+  },
+  {
+    "DENOMINAZIONE": "Svizzera",
+    "CODICE": "Z133"
+  },
+  {
+    "DENOMINAZIONE": "Ucraina",
+    "CODICE": "Z138"
+  },
+  {
+    "DENOMINAZIONE": "Ungheria",
+    "CODICE": "Z134"
+  },
+  {
+    "DENOMINAZIONE": "Federazione russa",
+    "CODICE": "Z154"
+  },
+  {
+    "DENOMINAZIONE": "Stato della Città del Vaticano",
+    "CODICE": "Z106"
+  },
+  {
+    "DENOMINAZIONE": "Estonia",
+    "CODICE": "Z144"
+  },
+  {
+    "DENOMINAZIONE": "Lettonia",
+    "CODICE": "Z145"
+  },
+  {
+    "DENOMINAZIONE": "Lituania",
+    "CODICE": "Z146"
+  },
+  {
+    "DENOMINAZIONE": "Croazia",
+    "CODICE": "Z149"
+  },
+  {
+    "DENOMINAZIONE": "Slovenia",
+    "CODICE": "Z150"
+  },
+  {
+    "DENOMINAZIONE": "Bosnia-Erzegovina",
+    "CODICE": "Z153"
+  },
+  {
+    "DENOMINAZIONE": "Macedonia del Nord",
+    "CODICE": "Z148"
+  },
+  {
+    "DENOMINAZIONE": "Moldova",
+    "CODICE": "Z140"
+  },
+  {
+    "DENOMINAZIONE": "Slovacchia",
+    "CODICE": "Z155"
+  },
+  {
+    "DENOMINAZIONE": "Bielorussia",
+    "CODICE": "Z139"
+  },
+  {
+    "DENOMINAZIONE": "Repubblica ceca",
+    "CODICE": "Z156"
+  },
+  {
+    "DENOMINAZIONE": "Montenegro",
+    "CODICE": "Z159"
+  },
+  {
+    "DENOMINAZIONE": "Serbia",
+    "CODICE": "Z158"
+  },
+  {
+    "DENOMINAZIONE": "Kosovo",
+    "CODICE": "Z160"
+  },
+  {
+    "DENOMINAZIONE": "Afghanistan",
+    "CODICE": "Z200"
+  },
+  {
+    "DENOMINAZIONE": "Arabia Saudita",
+    "CODICE": "Z203"
+  },
+  {
+    "DENOMINAZIONE": "Bahrein",
+    "CODICE": "Z204"
+  },
+  {
+    "DENOMINAZIONE": "Bangladesh",
+    "CODICE": "Z249"
+  },
+  {
+    "DENOMINAZIONE": "Bhutan",
+    "CODICE": "Z205"
+  },
+  {
+    "DENOMINAZIONE": "Myanmar/Birmania",
+    "CODICE": "Z206"
+  },
+  {
+    "DENOMINAZIONE": "Brunei Darussalam",
+    "CODICE": "Z207"
+  },
+  {
+    "DENOMINAZIONE": "Cambogia",
+    "CODICE": "Z208"
+  },
+  {
+    "DENOMINAZIONE": "Sri Lanka",
+    "CODICE": "Z209"
+  },
+  {
+    "DENOMINAZIONE": "Cina",
+    "CODICE": "Z210"
+  },
+  {
+    "DENOMINAZIONE": "Cipro",
+    "CODICE": "Z211"
+  },
+  {
+    "DENOMINAZIONE": "Corea del Nord",
+    "CODICE": "Z214"
+  },
+  {
+    "DENOMINAZIONE": "Corea del Sud",
+    "CODICE": "Z213"
+  },
+  {
+    "DENOMINAZIONE": "Emirati Arabi Uniti",
+    "CODICE": "Z215"
+  },
+  {
+    "DENOMINAZIONE": "Filippine",
+    "CODICE": "Z216"
+  },
+  {
+    "DENOMINAZIONE": "Palestina",
+    "CODICE": "Z161"
+  },
+  {
+    "DENOMINAZIONE": "Giappone",
+    "CODICE": "Z219"
+  },
+  {
+    "DENOMINAZIONE": "Giordania",
+    "CODICE": "Z220"
+  },
+  {
+    "DENOMINAZIONE": "India",
+    "CODICE": "Z222"
+  },
+  {
+    "DENOMINAZIONE": "Indonesia",
+    "CODICE": "Z223"
+  },
+  {
+    "DENOMINAZIONE": "Iran",
+    "CODICE": "Z224"
+  },
+  {
+    "DENOMINAZIONE": "Iraq",
+    "CODICE": "Z225"
+  },
+  {
+    "DENOMINAZIONE": "Israele",
+    "CODICE": "Z226"
+  },
+  {
+    "DENOMINAZIONE": "Kuwait",
+    "CODICE": "Z227"
+  },
+  {
+    "DENOMINAZIONE": "Laos",
+    "CODICE": "Z228"
+  },
+  {
+    "DENOMINAZIONE": "Libano",
+    "CODICE": "Z229"
+  },
+  {
+    "DENOMINAZIONE": "Timor Leste",
+    "CODICE": "Z242"
+  },
+  {
+    "DENOMINAZIONE": "Maldive",
+    "CODICE": "Z232"
+  },
+  {
+    "DENOMINAZIONE": "Malaysia",
+    "CODICE": "Z247"
+  },
+  {
+    "DENOMINAZIONE": "Mongolia",
+    "CODICE": "Z233"
+  },
+  {
+    "DENOMINAZIONE": "Nepal",
+    "CODICE": "Z234"
+  },
+  {
+    "DENOMINAZIONE": "Oman",
+    "CODICE": "Z235"
+  },
+  {
+    "DENOMINAZIONE": "Pakistan",
+    "CODICE": "Z236"
+  },
+  {
+    "DENOMINAZIONE": "Qatar",
+    "CODICE": "Z237"
+  },
+  {
+    "DENOMINAZIONE": "Singapore",
+    "CODICE": "Z248"
+  },
+  {
+    "DENOMINAZIONE": "Siria",
+    "CODICE": "Z240"
+  },
+  {
+    "DENOMINAZIONE": "Thailandia",
+    "CODICE": "Z241"
+  },
+  {
+    "DENOMINAZIONE": "Turchia",
+    "CODICE": "Z243"
+  },
+  {
+    "DENOMINAZIONE": "Vietnam",
+    "CODICE": "Z251"
+  },
+  {
+    "DENOMINAZIONE": "Yemen",
+    "CODICE": "Z246"
+  },
+  {
+    "DENOMINAZIONE": "Kazakhstan",
+    "CODICE": "Z255"
+  },
+  {
+    "DENOMINAZIONE": "Uzbekistan",
+    "CODICE": "Z259"
+  },
+  {
+    "DENOMINAZIONE": "Armenia",
+    "CODICE": "Z252"
+  },
+  {
+    "DENOMINAZIONE": "Azerbaigian",
+    "CODICE": "Z253"
+  },
+  {
+    "DENOMINAZIONE": "Georgia",
+    "CODICE": "Z254"
+  },
+  {
+    "DENOMINAZIONE": "Kirghizistan",
+    "CODICE": "Z256"
+  },
+  {
+    "DENOMINAZIONE": "Tagikistan",
+    "CODICE": "Z257"
+  },
+  {
+    "DENOMINAZIONE": "Taiwan",
+    "CODICE": "Z217"
+  },
+  {
+    "DENOMINAZIONE": "Turkmenistan",
+    "CODICE": "Z258"
+  },
+  {
+    "DENOMINAZIONE": "Algeria",
+    "CODICE": "Z301"
+  },
+  {
+    "DENOMINAZIONE": "Angola",
+    "CODICE": "Z302"
+  },
+  {
+    "DENOMINAZIONE": "Costa d'Avorio",
+    "CODICE": "Z313"
+  },
+  {
+    "DENOMINAZIONE": "Benin",
+    "CODICE": "Z314"
+  },
+  {
+    "DENOMINAZIONE": "Botswana",
+    "CODICE": "Z358"
+  },
+  {
+    "DENOMINAZIONE": "Burkina Faso",
+    "CODICE": "Z354"
+  },
+  {
+    "DENOMINAZIONE": "Burundi",
+    "CODICE": "Z305"
+  },
+  {
+    "DENOMINAZIONE": "Camerun",
+    "CODICE": "Z306"
+  },
+  {
+    "DENOMINAZIONE": "Capo Verde",
+    "CODICE": "Z307"
+  },
+  {
+    "DENOMINAZIONE": "Repubblica Centrafricana",
+    "CODICE": "Z308"
+  },
+  {
+    "DENOMINAZIONE": "Ciad",
+    "CODICE": "Z309"
+  },
+  {
+    "DENOMINAZIONE": "Comore",
+    "CODICE": "Z310"
+  },
+  {
+    "DENOMINAZIONE": "Congo",
+    "CODICE": "Z311"
+  },
+  {
+    "DENOMINAZIONE": "Egitto",
+    "CODICE": "Z336"
+  },
+  {
+    "DENOMINAZIONE": "Etiopia",
+    "CODICE": "Z315"
+  },
+  {
+    "DENOMINAZIONE": "Gabon",
+    "CODICE": "Z316"
+  },
+  {
+    "DENOMINAZIONE": "Gambia",
+    "CODICE": "Z317"
+  },
+  {
+    "DENOMINAZIONE": "Ghana",
+    "CODICE": "Z318"
+  },
+  {
+    "DENOMINAZIONE": "Gibuti",
+    "CODICE": "Z361"
+  },
+  {
+    "DENOMINAZIONE": "Guinea",
+    "CODICE": "Z319"
+  },
+  {
+    "DENOMINAZIONE": "Guinea-Bissau",
+    "CODICE": "Z320"
+  },
+  {
+    "DENOMINAZIONE": "Guinea equatoriale",
+    "CODICE": "Z321"
+  },
+  {
+    "DENOMINAZIONE": "Kenya",
+    "CODICE": "Z322"
+  },
+  {
+    "DENOMINAZIONE": "Lesotho",
+    "CODICE": "Z359"
+  },
+  {
+    "DENOMINAZIONE": "Liberia",
+    "CODICE": "Z325"
+  },
+  {
+    "DENOMINAZIONE": "Libia",
+    "CODICE": "Z326"
+  },
+  {
+    "DENOMINAZIONE": "Madagascar",
+    "CODICE": "Z327"
+  },
+  {
+    "DENOMINAZIONE": "Malawi",
+    "CODICE": "Z328"
+  },
+  {
+    "DENOMINAZIONE": "Mali",
+    "CODICE": "Z329"
+  },
+  {
+    "DENOMINAZIONE": "Marocco",
+    "CODICE": "Z330"
+  },
+  {
+    "DENOMINAZIONE": "Mauritania",
+    "CODICE": "Z331"
+  },
+  {
+    "DENOMINAZIONE": "Maurizio",
+    "CODICE": "Z332"
+  },
+  {
+    "DENOMINAZIONE": "Mozambico",
+    "CODICE": "Z333"
+  },
+  {
+    "DENOMINAZIONE": "Namibia",
+    "CODICE": "Z300"
+  },
+  {
+    "DENOMINAZIONE": "Niger",
+    "CODICE": "Z334"
+  },
+  {
+    "DENOMINAZIONE": "Nigeria",
+    "CODICE": "Z335"
+  },
+  {
+    "DENOMINAZIONE": "Ruanda",
+    "CODICE": "Z338"
+  },
+  {
+    "DENOMINAZIONE": "Sao Tomè e Principe",
+    "CODICE": "Z341"
+  },
+  {
+    "DENOMINAZIONE": "Seychelles",
+    "CODICE": "Z342"
+  },
+  {
+    "DENOMINAZIONE": "Senegal",
+    "CODICE": "Z343"
+  },
+  {
+    "DENOMINAZIONE": "Sierra Leone",
+    "CODICE": "Z344"
+  },
+  {
+    "DENOMINAZIONE": "Somalia",
+    "CODICE": "Z345"
+  },
+  {
+    "DENOMINAZIONE": "Sudafrica",
+    "CODICE": "Z347"
+  },
+  {
+    "DENOMINAZIONE": "Sudan",
+    "CODICE": "Z348"
+  },
+  {
+    "DENOMINAZIONE": "Eswatini",
+    "CODICE": "Z349"
+  },
+  {
+    "DENOMINAZIONE": "Tanzania",
+    "CODICE": "Z357"
+  },
+  {
+    "DENOMINAZIONE": "Togo",
+    "CODICE": "Z351"
+  },
+  {
+    "DENOMINAZIONE": "Tunisia",
+    "CODICE": "Z352"
+  },
+  {
+    "DENOMINAZIONE": "Uganda",
+    "CODICE": "Z353"
+  },
+  {
+    "DENOMINAZIONE": "Repubblica Democratica del Congo",
+    "CODICE": "Z312"
+  },
+  {
+    "DENOMINAZIONE": "Zambia",
+    "CODICE": "Z355"
+  },
+  {
+    "DENOMINAZIONE": "Zimbabwe",
+    "CODICE": "Z337"
+  },
+  {
+    "DENOMINAZIONE": "Eritrea",
+    "CODICE": "Z368"
+  },
+  {
+    "DENOMINAZIONE": "Sud Sudan",
+    "CODICE": "Z907"
+  },
+  {
+    "DENOMINAZIONE": "Antigua e Barbuda",
+    "CODICE": "Z532"
+  },
+  {
+    "DENOMINAZIONE": "Bahamas",
+    "CODICE": "Z502"
+  },
+  {
+    "DENOMINAZIONE": "Barbados",
+    "CODICE": "Z522"
+  },
+  {
+    "DENOMINAZIONE": "Belize",
+    "CODICE": "Z512"
+  },
+  {
+    "DENOMINAZIONE": "Canada",
+    "CODICE": "Z401"
+  },
+  {
+    "DENOMINAZIONE": "Costa Rica",
+    "CODICE": "Z503"
+  },
+  {
+    "DENOMINAZIONE": "Cuba",
+    "CODICE": "Z504"
+  },
+  {
+    "DENOMINAZIONE": "Dominica",
+    "CODICE": "Z526"
+  },
+  {
+    "DENOMINAZIONE": "Repubblica Dominicana",
+    "CODICE": "Z505"
+  },
+  {
+    "DENOMINAZIONE": "El Salvador",
+    "CODICE": "Z506"
+  },
+  {
+    "DENOMINAZIONE": "Giamaica",
+    "CODICE": "Z507"
+  },
+  {
+    "DENOMINAZIONE": "Grenada",
+    "CODICE": "Z524"
+  },
+  {
+    "DENOMINAZIONE": "Guatemala",
+    "CODICE": "Z509"
+  },
+  {
+    "DENOMINAZIONE": "Haiti",
+    "CODICE": "Z510"
+  },
+  {
+    "DENOMINAZIONE": "Honduras",
+    "CODICE": "Z511"
+  },
+  {
+    "DENOMINAZIONE": "Messico",
+    "CODICE": "Z514"
+  },
+  {
+    "DENOMINAZIONE": "Nicaragua",
+    "CODICE": "Z515"
+  },
+  {
+    "DENOMINAZIONE": "Panama",
+    "CODICE": "Z516"
+  },
+  {
+    "DENOMINAZIONE": "Santa Lucia",
+    "CODICE": "Z527"
+  },
+  {
+    "DENOMINAZIONE": "Saint Vincent e Grenadine",
+    "CODICE": "Z528"
+  },
+  {
+    "DENOMINAZIONE": "Saint Kitts e Nevis",
+    "CODICE": "Z533"
+  },
+  {
+    "DENOMINAZIONE": "Stati Uniti d'America",
+    "CODICE": "Z404"
+  },
+  {
+    "DENOMINAZIONE": "Argentina",
+    "CODICE": "Z600"
+  },
+  {
+    "DENOMINAZIONE": "Bolivia",
+    "CODICE": "Z601"
+  },
+  {
+    "DENOMINAZIONE": "Brasile",
+    "CODICE": "Z602"
+  },
+  {
+    "DENOMINAZIONE": "Cile",
+    "CODICE": "Z603"
+  },
+  {
+    "DENOMINAZIONE": "Colombia",
+    "CODICE": "Z604"
+  },
+  {
+    "DENOMINAZIONE": "Ecuador",
+    "CODICE": "Z605"
+  },
+  {
+    "DENOMINAZIONE": "Guyana",
+    "CODICE": "Z606"
+  },
+  {
+    "DENOMINAZIONE": "Paraguay",
+    "CODICE": "Z610"
+  },
+  {
+    "DENOMINAZIONE": "Perù",
+    "CODICE": "Z611"
+  },
+  {
+    "DENOMINAZIONE": "Suriname",
+    "CODICE": "Z608"
+  },
+  {
+    "DENOMINAZIONE": "Trinidad e Tobago",
+    "CODICE": "Z612"
+  },
+  {
+    "DENOMINAZIONE": "Uruguay",
+    "CODICE": "Z613"
+  },
+  {
+    "DENOMINAZIONE": "Venezuela",
+    "CODICE": "Z614"
+  },
+  {
+    "DENOMINAZIONE": "Australia",
+    "CODICE": "Z700"
+  },
+  {
+    "DENOMINAZIONE": "Figi",
+    "CODICE": "Z704"
+  },
+  {
+    "DENOMINAZIONE": "Kiribati",
+    "CODICE": "Z731"
+  },
+  {
+    "DENOMINAZIONE": "Isole Marshall",
+    "CODICE": "Z711"
+  },
+  {
+    "DENOMINAZIONE": "Stati Federati di Micronesia",
+    "CODICE": "Z735"
+  },
+  {
+    "DENOMINAZIONE": "Nauru",
+    "CODICE": "Z713"
+  },
+  {
+    "DENOMINAZIONE": "Nuova Zelanda",
+    "CODICE": "Z719"
+  },
+  {
+    "DENOMINAZIONE": "Palau",
+    "CODICE": "Z734"
+  },
+  {
+    "DENOMINAZIONE": "Papua Nuova Guinea",
+    "CODICE": "Z730"
+  },
+  {
+    "DENOMINAZIONE": "Isole Salomone",
+    "CODICE": "Z724"
+  },
+  {
+    "DENOMINAZIONE": "Samoa",
+    "CODICE": "Z726"
+  },
+  {
+    "DENOMINAZIONE": "Tonga",
+    "CODICE": "Z728"
+  },
+  {
+    "DENOMINAZIONE": "Tuvalu",
+    "CODICE": "Z732"
+  },
+  {
+    "DENOMINAZIONE": "Vanuatu",
+    "CODICE": "Z733"
+  },
+  {
+    "DENOMINAZIONE": "Nuova Caledonia",
+    "CODICE": "Z716"
+  },
+  {
+    "DENOMINAZIONE": "Sahara occidentale",
+    "CODICE": "Z339"
+  },
+  {
+    "DENOMINAZIONE": "Bermuda",
+    "CODICE": "Z400"
+  },
+  {
+    "DENOMINAZIONE": "Isole Cook (NZ)",
+    "CODICE": "Z703"
+  },
+  {
+    "DENOMINAZIONE": "Gibilterra",
+    "CODICE": "Z113"
+  },
+  {
+    "DENOMINAZIONE": "Isole Cayman",
+    "CODICE": "Z530"
+  },
+  {
+    "DENOMINAZIONE": "Anguilla",
+    "CODICE": "Z529"
+  },
+  {
+    "DENOMINAZIONE": "Polinesia francese",
+    "CODICE": "Z723"
+  },
+  {
+    "DENOMINAZIONE": "Isole Fær Øer",
+    "CODICE": "Z108"
+  },
+  {
+    "DENOMINAZIONE": "Aruba",
+    "CODICE": "Z501"
+  },
+  {
+    "DENOMINAZIONE": "Groenlandia",
+    "CODICE": "Z402"
+  },
+  {
+    "DENOMINAZIONE": "Isole Falkland (Malvine)",
+    "CODICE": "Z609"
+  },
+  {
+    "DENOMINAZIONE": "Isola di Man",
+    "CODICE": "Z122"
+  },
+  {
+    "DENOMINAZIONE": "Montserrat",
+    "CODICE": "Z531"
+  },
+  {
+    "DENOMINAZIONE": "Isole Pitcairn",
+    "CODICE": "Z722"
+  },
+  {
+    "DENOMINAZIONE": "Saint Pierre e Miquelon",
+    "CODICE": "Z403"
+  },
+  {
+    "DENOMINAZIONE": "Sant'Elena",
+    "CODICE": "Z340"
+  },
+  {
+    "DENOMINAZIONE": "Isole Turks e Caicos",
+    "CODICE": "Z519"
+  },
+  {
+    "DENOMINAZIONE": "Isole Vergini britanniche",
+    "CODICE": "Z525"
+  },
+  {
+    "DENOMINAZIONE": "Wallis e Futuna",
+    "CODICE": "Z729"
+  }
+]

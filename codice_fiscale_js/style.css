@@ -1,0 +1,120 @@
+[data-theme="light"]{
+    --colore-fondo: #fff;
+    --colore-risultato: #000;
+    --colore-label: #000;
+}
+[data-theme="dark"]{
+    --colore-fondo: #111;
+    --colore-risultato: #fff;
+    --colore-label: #fff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--colore-fondo);
+}
+label{
+    color: var(--colore-label);
+}
+
+.container{
+    position: relative;
+    display: block;
+    max-width: 700px;
+    margin-top: 30px;
+}
+.nav{
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content:space-between;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.dark_light_Bt{
+    cursor: pointer;
+    fill: forestgreen;
+}
+.contenitore{
+    border-radius: 10px;
+    padding: 10px;
+}
+.contenitore .titolo{
+    background-color: #198754;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+.contenitore .titolo h1{
+    color: #fff;
+    font-size: 3rem;
+}
+.contenitore .risultato h2{
+    text-align: center;
+    padding: 20px 0;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--colore-risultato);
+}
+.genera{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.stato,
+.comune{
+    position: relative;
+}
+.elencoStati,
+.elencoComuni{
+    position: absolute;
+    width: 93%;
+    cursor: pointer;
+    margin-top: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 2px;
+    max-height: 200px;
+    overflow: auto;
+}
+.elencoComuni li,
+.elencoStati li{
+    list-style: none;
+}
+.elencoComuni li:hover,
+.elencoStati li:hover{
+    background-color: lightblue;
+}
+
+ /************************************/
+
+.btCalc{
+    width: 100%;
+    height: 100%;
+}
+.rigaInv{
+    justify-content:space-around;
+    vertical-align: middle;
+}
+#inputCodice{
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.risultati label{
+    width: 120px;
+}
+.risultati input{
+    border-radius: 5px;
+    background-color: rgb(207, 235, 245);
+    padding-left: 5px;
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="it" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/ico.png" type="image/x-icon">
+    <title>Codice Fiscale</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav border border-success border-2">
+            <div>
+                <button class="btn btn-success" id="codice" onclick="cambiapagina()">Codice Inverso</button>
+                <button class="btn btn-success" id="reset" onclick="reset()">Reset</button>
+            </div>
+            <div class="dark_light">
+                <div class="dark_light_Bt" onclick="change_theme()">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
+                        <path
+                            d="M24 42q-7.5 0-12.75-5.25T6 24q0-7.5 5.25-12.75T24 6q.4 0 .85.025.45.025 1.15.075-1.8 1.6-2.8 3.95-1 2.35-1 4.95 0 4.5 3.15 7.65Q28.5 25.8 33 25.8q2.6 0 4.95-.925T41.9 22.3q.05.6.075.975Q42 23.65 42 24q0 7.5-5.25 12.75T24 42Zm0-3q5.45 0 9.5-3.375t5.05-7.925q-1.25.55-2.675.825Q34.45 28.8 33 28.8q-5.75 0-9.775-4.025T19.2 15q0-1.2.25-2.575.25-1.375.9-3.125-4.9 1.35-8.125 5.475Q9 18.9 9 24q0 6.25 4.375 10.625T24 39Zm-.2-14.85Z" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="contenitore border border-success border-2">
+            <div class="titolo">
+                <h1>Codice Fiscale</h1>
+            </div>
+            <div class="risultato">
+                <h2></h2>
+            </div>
+            <form class="row g-3" novalidate>
+                <!-- al momento del click sul pulsante di invio form, inserire was-validated mediante js nella classe del form -->
+                <div class="col-md-6">
+                    <label for="cognome" class="form-label cognome">Cognome</label>
+                    <input type="text" class="form-control" name="cognome" id="cognome" value="" minlength="2" required>
+                    <div class="invalid-feedback">
+                        Inserisci il cognome!
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="nome" class="form-label nome">Nome</label>
+                    <input type="text" class="form-control " id="nome" name="nome" value="" minlength="2" required>
+                    <div class="invalid-feedback">
+                        Inserisci il nome!
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <!-- se si seleziona italia, sbloccare il luogo di nascita -->
+                            <label for="luogo" class="form-label mt-3">Luogo</label>
+                            <select class="form-select" id="luogo" name="luogo" required onchange="selectLuogo()">
+                                <option value="Italia">Italia</option>
+                                <option disabled>----------------</option>
+                                <option value="Estero">Stato Estero</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Inserire luogo!
+                            </div>
+                        </div>
+                        <div class="col-md-6 comune">
+                            <label for="citta" class="form-label mt-3">Comune di nascita</label>
+                            <input type="text" class="form-control" id="citta" name="citta">
+                            <div class="elencoComuni border border-success border-1 d-none"></div>
+                            <div class="invalid-feedback">
+                                Inserire un Comune valido!
+                            </div>
+                        </div>
+                        <div class="col-md-6 stato">
+                            <label for="stato" class="form-label mt-3">Stato o Nazione di nascita</label>
+                            <input type="text" class="form-control" id="stato" name="stato">
+                            <div class="elencoStati border border-success border-1 d-none"></div>
+                            <div class="invalid-feedback">
+                                Inserire Stato o Nazione di nascita!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <div class="row">
+                        <!-- select mese -->
+                        <div class="col-md-4">
+                            <label for="mese" class="form-label mt-3">Mese di nascita</label>
+                            <select class="form-select mese" id="mese" name="mese" required onchange="selectMese()">
+                                <option selected value="A">Gennaio</option>
+                                <option value="B">Febbraio</option>
+                                <option value="C">Marzo</option>
+                                <option value="D">Aprile</option>
+                                <option value="E">Maggio</option>
+                                <option value="H">Giugno</option>
+                                <option value="L">Luglio</option>
+                                <option value="M">Agosto</option>
+                                <option value="P">Settembre</option>
+                                <option value="R">Ottobre</option>
+                                <option value="S">Novembre</option>
+                                <option value="T">Dicembre</option>
+                            </select>
+                            <input type="hidden" id="meseNascosto" value="">
+                        </div>
+                        <!-- select anno -->
+                        <div class="col-md-4">
+                            <label for="anno" class="form-label mt-3">Anno di nascita</label>
+                            <select class="form-select" id="anno" required onchange="selectAnno()">
+                            </select>
+                        </div>
+                        <!-- select giorno -->
+                        <div class="col-md-4">
+                            <label for="giorno" class="form-label mt-3">Giorno di nascita</label>
+                            <select class="form-select" id="giorno" required>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-6">
+                            <input type="radio" class="btn-check" name="sesso" id="sesso-m" value="M" autocomplete="off"
+                                required checked>
+                            <label class="btn btn-outline-primary d-block" for="sesso-m">Maschile</label>
+                        </div>
+                        <div class="col-6">
+                            <input type="radio" class="btn-check" name="sesso" id="sesso-f" value="F" autocomplete="off"
+                                required>
+                            <label class="btn btn-outline-danger d-block" for="sesso-f">Femminile</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <button class="btn btn-success genera" type="submit">Genera Codice Fiscale</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+    <!-- script javascript -->
+    <script src="script.js"></script>
+    <script src="calc_cod_controllo.js"></script>
+</body>
+
+</html>
